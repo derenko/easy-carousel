@@ -1,0 +1,22 @@
+{
+  "name": "carousel",
+  "version": "1.0.0",
+  "description": "js carousel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx parcel index.html -p 3000 --open",
+    "prebuild": "rmdir dist /s /q",
+    "build": "npx parcel build index.html"
+  },
+  "keywords": [
+    "carousel",
+    "js"
+  ],
+  "author": "vasya.derenko@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.25.0"
+  }
+}

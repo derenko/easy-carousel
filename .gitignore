@@ -1,0 +1,8 @@
+/.cache
+/node_modules
+package-lock.json
+index.html
+/src/scss
+/dist/*.css
+/dist/*.js.map
+/dist/*.css.map
